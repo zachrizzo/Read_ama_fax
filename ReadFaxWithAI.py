@@ -135,7 +135,7 @@ class DownloadAndReadFax:
         loging_buttom_1 = self.driver.find_element(By.XPATH, '//*[@id="nextStep"]')
         loging_buttom_1.click()
         password_2 = self.driver.find_element(By.XPATH, '//*[@id="passwordField"]')
-        password_2.send_keys('Karen013074!')
+      
         time.sleep(2)
         login_2 = self.driver.find_element(By.XPATH, '//*[@id="Login"]')
         login_2.click()
